@@ -14,7 +14,7 @@ This is alpha code, it requires several manual steps to get it running.
 * Run ```npm install```
 
 ### Set up Google Sheets 
-* Go to [https://console.developers.google.com/project](Google Developer Console)
+* Go to [Google Developer Console](https://console.developers.google.com/project)
 * Select your project or create a new one (and then select it)
 * Enable the Drive API for your project
     * In the sidebar on the left, expand APIs & auth > APIs
@@ -40,12 +40,12 @@ This is alpha code, it requires several manual steps to get it running.
 ### Create a Lambda App
 * Log into Amazon AWS
 * Select N. Virginia region - the only region currently capable of hosting Alexa apps
-* Create a new app as documented [http://tobuildsomething.com/2015/08/14/Amazon-Echo-Alexa-Tutorial-The-Definitive-Guide-to-Coding-an-Alexa-Skill/](here)
+* Create a new app as documented [here](http://tobuildsomething.com/2015/08/14/Amazon-Echo-Alexa-Tutorial-The-Definitive-Guide-to-Coding-an-Alexa-Skill/)
 * Zip the contents of this product directory, including creds.json and upload it.
 
 ### Create an Alexa App
 
-* Log into [https://developer.amazon.com](Amazon Developer Console)
+* Log into [Amazon Developer Console](https://developer.amazon.com)
 * Create a new Alexa app, called echoNote
 * Use Invocation name "echo note"
 * Copy the "intent schema" and "sample utterences" from the ```speechAssets``` subdirectory
@@ -77,12 +77,12 @@ At the moment there are quite a lot of errors.  Sometimes Alexa fails to launch 
 
 The only thing we can (maybe) do something about is getting her to expect longer strings of text.  The place to experiment is in the Developer console.  
 
-* Go to [https://developer.amazon.com/edw/home.html#/skill/amzn1.echo-sdk-ams.app.8e4ef364-0b52-4be1-bb7f-58f5f92bfc4e/intentSchema/list](developer console)   
+* Go to [developer console](https://developer.amazon.com/edw/home.html#/skill/amzn1.echo-sdk-ams.app.8e4ef364-0b52-4be1-bb7f-58f5f92bfc4e/intentSchema/list)   
 * Go to Alexa
 * Click “Get Started” on “Alexa Skills Kit”
 * Edit “Inkling”
 * Go to “Interaction Model”
 * Play with the stuff in “Sample Utterances” 
 
-There are some tips on what should go in there on the “Literal Slot Type Reference” section of [https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interaction-model-reference](this page).  
+There are some tips on what should go in there on the “Literal Slot Type Reference” section of [this page](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interaction-model-reference).  
 
