@@ -1,0 +1,11 @@
+{
+  "intents": [
+    {
+      "intent": "RecordIdeaIntent",
+      "slots": [{
+          "name": "idea",
+          "type": "LITERAL"
+        }]
+    }
+  ]
+}

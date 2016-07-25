@@ -1,0 +1,17 @@
+{
+  "name": "echoNote",
+  "version": "1.0.0",
+  "description": "Speak your mind",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "6.2.2"
+  },
+  "dependencies": {
+    "alexa-skill": "^0.1.1",
+    "async": "^2.0.0-rc.6",
+    "google-spreadsheet": "^2.0.3"
+  }
+}
